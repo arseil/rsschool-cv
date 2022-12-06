@@ -2,7 +2,8 @@
 
 ## Contacts:
 E-mail: arceil7337@gmail.com  
-Discord: Artem (@arseil)
+Discord: Artem (@arseil)  
+Telegram: @arseil
 
 ## About me:
 I want to learn the necessary skills of Front-End development and become a software engineer. 
