@@ -1,0 +1,31 @@
+.title {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 60px;
+	margin-bottom: 0;
+	color: #ffffff;
+	&_fz12 {
+		font-size: 12px;
+		line-height: 18px;
+		font-weight: 500;
+	}
+	&_fz14 {
+		font-size: 14px;
+		line-height: 21px;
+	}
+	&_fz16 {
+		font-size: 16px;
+		line-height: 24px;
+	}
+	&_fz20 {
+		font-size: 20px;
+		line-height: 30px;
+	}
+	&_fz36 {
+		font-size: 36px;
+		margin-bottom: 20px;
+	}
+	&_fz57 {
+		font-size: 57px;
+	}
+} 

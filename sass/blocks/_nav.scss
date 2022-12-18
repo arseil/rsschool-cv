@@ -1,0 +1,33 @@
+.nav {
+    display: grid;
+	grid-template-columns: repeat(7, auto);
+	justify-content: start;
+	column-gap: 70px;
+	padding: 25px;
+	z-index: 2;
+    &__item {
+		width: 100%;
+		text-align: center;
+		position: relative;
+		cursor: pointer;
+		transition: 0.5s all;
+		&:hover {
+			scale: 1.04;
+		}
+		&:after {
+			display: block;
+			content: '';
+			position: absolute;
+			bottom: 30%;
+			height: 1%;
+			width: 100%;
+			border-radius: 5px;
+			box-shadow: 0 5px 4px #272727;
+			transform: scaleX(0);
+			transition: 0.5s all;
+		}
+		&:hover:after {
+			transform: scaleX(1);
+		}
+	}
+}
