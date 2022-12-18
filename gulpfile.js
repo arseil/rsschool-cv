@@ -3,7 +3,6 @@ const browserSync = require('browser-sync');
 const sass = require('gulp-sass')(require('sass'));
 const autoprefixer = require('gulp-autoprefixer');
 const cleanCSS = require('gulp-clean-css');
-const imagemin = require('gulp-imagemin');
 
 gulp.task('server', function() {
 	browserSync({
@@ -48,7 +47,6 @@ gulp.task('icons', function() {
 
 gulp.task('images', function() {
 	return gulp.src("assets/img/**/*")
-		.pipe(imagemin())
 		.pipe(browserSync.stream());
 });
 
