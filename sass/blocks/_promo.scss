@@ -1,0 +1,17 @@
+.promo {
+	margin-top: -75px;
+	padding-top: 400px;
+	min-height: 103vh;
+	position: relative;
+	background: url('../assets/img/main_bg.jpg') no-repeat 50%/cover;
+	z-index: -1;
+	&__title {
+		margin-top: 21px;
+	}
+	&__subtitle {
+		position: relative;
+		padding-left: 10px;
+		z-index: 2;
+	}
+}
+
