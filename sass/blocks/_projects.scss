@@ -1,0 +1,28 @@
+.projects {
+    padding-top: 100px;
+    background-color: #7E18FF;
+    &__link {
+        transition: 0.5s all;
+        &:hover {
+            filter: saturate(.1) opacity(.9);
+        }
+        &:after {
+			display: inline-block;
+			content: 'CarFly';
+            font-size: 50px;
+            padding: 100px;
+			/* position: absolute;
+			top: 50%;
+            right: 50%; */
+			transform: scaleX(0);
+			transition: 0.5s all;
+		}
+        &:hover:after {
+			transform: scaleX(1);
+		}
+    }
+    &__img {
+        width: 50%;
+        height: 50%;
+    }
+}
