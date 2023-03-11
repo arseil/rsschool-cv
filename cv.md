@@ -6,6 +6,8 @@ Discord: Artem (@arseil)
 Telegram: @arseil
 
 ## About me:
+Hello, I'm Artem.
+
 So far I have HTML5, CSS3/SASS/SCSS, Git/GitHub, JavaScript. I have good interpersonal skills and am ready to learn and develop new skills. 
 Therefore, I am ready to implement great projects with great people.
 
